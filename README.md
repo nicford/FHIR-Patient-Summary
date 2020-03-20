@@ -7,6 +7,12 @@ The following dotnet application must be running for the library to work.
 
 https://github.com/goshdrive/FHIRworks_2020
 
+# Installation
+
+```bash
+pip install FHIR-Patient-Summary
+
+```
 
 # Usage
 
