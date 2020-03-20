@@ -3,7 +3,7 @@ Python package that creates patient summary documents in docx or pdf from FHIR r
 
 # Prerequisites
 
-The following dotnet application must be running for the api to work
+The following dotnet application must be running for the library to work.
 
 https://github.com/goshdrive/FHIRworks_2020
 
@@ -26,5 +26,7 @@ createPatientSummaryDocument(patientID, "pdf", outputDir)
 # multiple patient docx format
 createPatientSummaryDocumentFromPatientIDList(patientIDs, "docx", outputDir)
 
+# multiple patient pdf format
+createPatientSummaryDocumentFromPatientIDList(patientIDs, "pdf", outputDir)
 
 ```
